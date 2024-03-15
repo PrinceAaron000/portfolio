@@ -1,0 +1,189 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.navbar .navbar-nav {
+  margin-left: 30%;
+}
+.navbar .navbar-nav .nav-link {
+  margin-left: 30px;
+  color: black;
+  transition: 0.5s;
+}
+.navbar .navbar-nav .nav-link:hover {
+  color: orangered;
+}
+.navbar .navbar-brand {
+  color: orangered;
+  font-size: 30px;
+  margin-left: 30px;
+  font-weight: bolder;
+}
+.navbar .navbar-brand span {
+  color: black;
+}
+
+.main {
+  height: 100vh;
+  background: black;
+  display: grid;
+  grid-template-columns: 100px 1fr 1fr 100px;
+  grid-template-rows: 700px 800px;
+}
+.main .column1 {
+  grid-column: 2/3;
+  grid-row: 1/2;
+  display: grid;
+  place-items: center;
+  background: black;
+}
+.main .column2 {
+  grid-column: 3/4;
+  grid-row: 1/2;
+  display: grid;
+  place-items: center;
+  background: black;
+}
+.main .column3 {
+  grid-row: 2/3;
+  grid-column: 1/5;
+  display: grid;
+  justify-items: center;
+  background: black;
+}
+.main .footer {
+  grid-row: 3/4;
+  grid-column: 1/5;
+  background: black;
+}
+.main .projects-container {
+  margin-top: 5%;
+  color: white;
+}
+.main .projects-container span {
+  color: orangered;
+}
+.main .mini-projects {
+  background: black;
+}
+.main .mini-projects img {
+  margin-left: 10%;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  border: 2px solid white;
+}
+.main .text-group {
+  margin-top: -30px;
+  color: white;
+  font-family: "Montserrat", Verdana;
+}
+.main .text-group span {
+  color: orangered;
+}
+.main .logo-container img {
+  margin-top: 50px;
+  border-radius: 50%;
+  border: 5px solid white;
+}
+.main h1 {
+  font-weight: bolder;
+}
+.main h2 {
+  font-weight: bolder;
+}
+.main .btn1 {
+  padding: 10px;
+  font-family: Verdana;
+  font-family: "Montserrat", Verdana;
+  border-radius: 5px;
+  border: 1px solid black;
+  letter-spacing: 1px;
+  transition: 0.5s;
+}
+.main .btn1:hover {
+  background: orangered;
+  color: white;
+}
+.main .btn2 {
+  padding: 10px;
+  font-family: Verdana;
+  font-family: "Montserrat", Verdana;
+  border-radius: 5px;
+  color: white;
+  border: 1px solid black;
+  background: orangered;
+  letter-spacing: 1px;
+  margin-left: 20px;
+}
+@media (max-width: 992px) and (min-width: 768px) {
+  .main {
+    grid-template-columns: 75px 1fr 75px;
+    grid-template-rows: 1fr 1fr 1fr;
+  }
+  .main .column1 {
+    grid-column: 2/3;
+    grid-row: 1/2;
+  }
+  .main .column2 {
+    grid-column: 1/4;
+    grid-row: 2/3;
+  }
+  .main .column3 {
+    grid-column: 1/5;
+    grid-row: 3/4;
+  }
+  .main .text-group {
+    margin-top: 50px;
+  }
+}
+@media (max-width: 767px) and (min-width: 576px) {
+  .main {
+    grid-template-columns: 75px 1fr 75px;
+    grid-template-rows: 1fr 1fr 1fr;
+  }
+  .main .column1 {
+    grid-column: 2/3;
+    grid-row: 1/2;
+    background: black;
+  }
+  .main .column2 {
+    grid-column: 1/4;
+    grid-row: 2/3;
+  }
+  .main .column3 {
+    grid-column: 1/5;
+    grid-row: 3/4;
+  }
+  .main .text-group {
+    margin-top: 50px;
+  }
+  .main .mini-projects {
+    margin-left: 20%;
+  }
+}
+@media (max-width: 575px) {
+  .main {
+    grid-template-columns: 75px 1fr 75px;
+    grid-template-rows: 1fr 1fr 1fr;
+  }
+  .main .column1 {
+    grid-column: 2/3;
+    grid-row: 1/2;
+  }
+  .main .column2 {
+    grid-column: 1/4;
+    grid-row: 2/3;
+  }
+  .main .column3 {
+    grid-column: 1/5;
+    grid-row: 3/4;
+  }
+  .main .text-group {
+    margin-top: 50px;
+  }
+  .main .mini-projects {
+    margin-left: 50px;
+  }
+}/*# sourceMappingURL=index.css.map */

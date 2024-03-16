@@ -57,7 +57,7 @@ html, body {
   grid-column: 1/5;
   grid-row: 3/4;
   display: grid;
-  background: rgb(0, 0, 0);
+  background: #2f3236;
   justify-items: center;
 }
 .main .projects-container {
@@ -133,7 +133,6 @@ html, body {
   transition: 0.5s;
 }
 .main .footer h4 {
-  text-decoration: underline;
   color: white;
   font-family: "Montserrat", Verdana;
   margin-bottom: 10px;
@@ -184,7 +183,7 @@ html, body {
     margin-top: 50px;
   }
 }
-@media (max-width: 766px) and (min-width: 576px) {
+@media (max-width: 767px) and (min-width: 576px) {
   .main {
     grid-template-columns: 75px 1fr 75px;
     grid-template-rows: 1fr 1fr 1fr 300px;
@@ -215,7 +214,7 @@ html, body {
     margin-left: 50%;
   }
 }
-@media (max-width: 575px) {
+@media (max-width: 576px) {
   .main {
     grid-template-columns: 50px 1fr 50px;
     grid-template-rows: 1fr 1fr 1fr 200px 200px;
@@ -242,7 +241,8 @@ html, body {
     margin-right: 50px;
   }
   .main .mini-projects {
-    margin-left: 10px;
+    display: grid;
+    justify-items: end;
   }
   .main .footer {
     margin-right: 25%;

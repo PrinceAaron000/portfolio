@@ -66,9 +66,8 @@ span{
         grid-column: 1/5;
         grid-row: 3/4;
         display: grid;
-        background: rgb(0, 0, 0);
+        background: #2f3236;
         justify-items: center;
-       
     }
 
 
@@ -153,7 +152,6 @@ span{
         transition: 0.5s;
     }    
     h4{
-        text-decoration: underline;
         color: white;
         font-family: "Montserrat", Verdana;
         margin-bottom: 10px;
@@ -221,7 +219,7 @@ span{
     }
         
 // Medium Devices 
-@media (max-width: 766px) and (min-width:576px){
+@media (max-width: 767px) and (min-width:576px){
 
           
    
@@ -261,7 +259,7 @@ span{
     }
         // Small Devices 
 
-    @media (max-width: 575px){
+    @media (max-width: 576px){
         
         grid-template-columns: 50px 1fr 50px;
         grid-template-rows: 1fr 1fr 1fr 200px 200px;
@@ -288,7 +286,8 @@ span{
             margin-right: 50px;
         }
         .mini-projects{
-            margin-left: 10px;
+            display: grid;
+            justify-items: end;
         }
         .footer{
             margin-right: 25%;

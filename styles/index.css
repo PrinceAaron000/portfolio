@@ -217,7 +217,7 @@ html, body {
 @media (max-width: 576px) {
   .main {
     grid-template-columns: 50px 1fr 50px;
-    grid-template-rows: 1fr 1fr 1fr 200px 200px;
+    grid-template-rows: 1fr 1fr 1fr 400px;
   }
   .main .column1 {
     grid-column: 1/4;
@@ -254,6 +254,7 @@ html, body {
     margin-top: 60px;
   }
   .main .contact-me {
+    margin-right: 50px;
     text-align: center;
     display: grid;
     place-items: center;

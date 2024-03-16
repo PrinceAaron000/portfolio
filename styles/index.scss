@@ -290,12 +290,20 @@ span{
             justify-items: end;
         }
         .footer{
-            margin-right: 25%;
+            // margin-right: 25%;
+            display: grid;
+            display: inline-block;
+            place-items: center;
+            text-align: center;
             grid-row: 5/6;
             grid-column: 1/4;
+            margin-top: 60px;
         }
         .contact-me{
-            margin-left: 20%;
+            // margin-left: 20%;
+            text-align:center;
+            display: grid;
+            place-items: center;
         }
     }
 }
